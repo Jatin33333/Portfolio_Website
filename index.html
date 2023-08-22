@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+  <title>Portfolio Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/73a49de6d6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <div id="star"><img src="images/shouting_star.png" alt="" ></div>
+<header id="header1">
+  <div id="menu" onclick="onClickMenu()">
+       <div id="bar1" class="bar"></div>
+       <div id="bar2" class="bar"></div>
+       <div id="bar3" class="bar"></div>
+   </div>
+<i class="fa-solid fa-bars" style="color: #ffffff;" id="second_hamburger" onclick="slider_second()" class="second_hamburger"></i>
+<section id="logo"><img src="images/logo.png" alt=""></section>  
+<nav >
+
+<ul class="menu">
+  <li><a href="jatin.pdf" class="hover-underline-animation" class="hover-this" download >CV</a></li>
+  <li><a href="#contact_at_footer" class="hover-underline-animation hover-this">Contact</a></li>
+    <li><a href="#portfolio" id="special_anchor" class="hover-underline-animation hover-this">Portfolio</a>
+      <ul><li><a href="#graphic_designing" class="hover-underline-animation_1">Graphic</a></li>
+          <li><a href="#video_editing_work" class="hover-underline-animation_1">Video Editing</a></li>
+          <li><a href="#animation" class="hover-underline-animation_1">2d Animation</a></li>
+          <li><a href="#Web_designing" class="hover-underline-animation_1">Web Designing</a></li>
+        </ul>
+    </li>
+    <li><a href="#about"class="hover-underline-animation hover-this">About</a></li>
+    <li><a href="#flexa"class="hover-underline-animation hover-this">Home</a></li>
+    <div class="cursor"></div>
+</ul>
+
+  </nav>
+</header>
+
+<div id="just_line"></div>
+<section id="flexa">
+<section id="block_1">
+  <h1 class="animated_para">Web-design,graphic
+design & 2d animation</h1><br><br>
+<p class="animated_para">My mission is to create minimalistic
+and aesthetic design,that satisfies
+all user’s needs</p><br><br>
+<a href="#contact_at_footer" id="contactus">Contact me</a>
+</section>
+
+
+</section>
+<div id="sider">
+<div id="sidebar">
+    <i class="fa-solid fa-xmark"   id="close"></i>
+<div id="anchors">
+        <a href="#flexa" onclick="fn1()">Home</a>
+        <a href="#about" onclick="fn1()">About</a>
+        <a href="#portfolio" onclick="fn2()" id="p_1">Portfolio</a>
+        <div id='display'>
+            <button onclick="fn3()" id="p_2">Portfolio</button>
+            <a href="#graphic_designing" onclick="fn1()">Graphic</a>
+            <a href="#video_editing_work" onclick="fn1()">Video Editing</a>
+            <a href="#animation" onclick="fn1()">2D Animation</a>
+            <a href="#Web_designing" onclick="fn1()">Web Designing</a>
+
+        </div>
+        <a href="#contact_at_footer"  onclick="fn1()">Contact</a>
+</div>
+</div>
+</div>
+<section id="about">
+<span class="bigger big">Intro</span>
+  <section id="introduction">
+    <span style="--i:1">I</span>
+    <span style="--i:2">N</span>
+    <span style="--i:3">T</span>
+    <span style="--i:4">R</span>
+    <span style="--i:5">O</span>
+    <span style="--i:6">D</span>
+    <span style="--i:7">U</span>
+    <span style="--i:8">C</span>
+    <span style="--i:9">T</span>
+    <span style="--i:10">I</span>
+    <span style="--i:11">O</span>
+    <span style="--i:12">N</span>
+    <span style="--i:13">.</span>
+    <span style="--i:14">.</span>
+    <span style="--i:15">.</span>
+    <h2>Hi My Name is Jatin Baweja</h2>
+    <h2>I am a Graphic Designer,Website-designer,and 2d animator</h2>
+  </section>
+
+  <section id="education">
+    <p>Education</p>
+    <h2>BA Graduate From Delhi University</h2>
+    <h2>Diploma in Graphics, Web Designing and 2D Animation<br>From MAAC India
+    </h2>
+  </section>
+
+  <section id="skills">
+    <p>Skills</p>
+      <div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+  </section>
+  <section id="languages">
+    <p>Languages</p>
+    <h2>Hindi</h2>
+    <h2>English</h2>
+  </section>
+</section>
+
+<!--graphic part-->
+<section id="graphic_designing">
+  <span class="bigger_1 big">Graphics</span>
+  <h1>Graphic Works</h1>
+<section id="top">
+  <div class="wrapper">
+    <div class="intro">
+    </div>
+
+    <div class="scenes" tabindex="0">
+      <div class="scene-1">
+        <h2 class="scene-title">illustration</h2>
+      </div>
+      <div class="scene-2">
+        <h2 class="scene-title">illustration</h2>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!--hover animation part of illustration-->
+<div id="illustration" onClick="fn1()">
+  <div class="section-fluid-main">
+  		<div class="section-row">
+  			<div class="section-col">
+  				<div class="section">
+  					<div class="section-in">
+						<a href="#vector1" onclick="document.getElementById('vector1').requestFullscreen();"><img src="images/final_brochures.png" alt="" id="vector1"></a>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="hover-text">
+  				<h2>Brochure</h2>
+  			</div>
+  			<div class="section-col">
+  				<div class="section">
+  					<div class="section-in">
+						<a href="#vector2" onclick="document.getElementById('vector2').requestFullscreen();"><img src="images/packaging.png" alt="" id="vector2"></a>
+						
+  					</div>
+  				</div>
+  			</div>
+  			<div class="hover-text">
+  				<h2>Packaging Design</h2>
+  			</div>
+  			<div class="section-col">
+  				<div class="section">
+  					<div class="section-in">
+						<a href="#vector3" onclick="document.getElementById('vector3').requestFullscreen();"><img src="images/johnCena.png" alt="" id="vector3"></a>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="hover-text">
+  				<h2>Digital Painting</h2>
+  			</div>
+  			<div class="section-col">
+  				<div class="section">
+  					<div class="section-in">
+						<a href="#vector4" onclick="document.getElementById('vector4').requestFullscreen();"><img src="images/burger_poster.png" alt="" id="vector4"></a>
+						  
+  					</div> 
+  				</div>
+  			</div>
+  			<div class="hover-text">
+  				<h2>Poster Design</h2>
+  			</div>
+  			<div class="section-col">
+  				<div class="section">
+  					<div class="section-in">
+  						<a href="#vector5" onclick="document.getElementById('vector5').requestFullscreen();"><img src="images/magazine.png" alt="" id="vector5"></a>
+						  
+  					</div>
+  				</div>
+  			</div>
+  			<div class="hover-text">
+  				<h2>Magazine</h2>
+  			</div>
+  			<div class="section-col">
+  				<div class="section">
+  					<div class="section-in">
+  						<a href="#vector6" onclick="document.getElementById('vector6').requestFullscreen();"><img src="images/branding.png" alt="" id="vector6"></a>
+					</div>
+  				</div>
+  			</div>
+  			<div class="hover-text">
+  				<h2>Branding</h2>
+  			</div>
+  		</div>
+
+
+
+  	</div>
+  </div>
+<!--hover animation part of illustration-->
+<div class="behance_link">
+	<h2>More work is on Behance</h2><br>
+<a href="https://www.behance.net/jatinbaweja2000" class="button big_btn">Click me</a>
+	</div><br><br><br><br>
+</section>
+<!--graphic part-->
+<!--Video Editing-->
+<span class="bigger_2">Videos</span>
+<section id="video_editing_work"><h1>Video Editing Work</h1>
+  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ab0hG-GCZrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen data-aos="zoom-in"></iframe>
+  <section id="disc_11">
+    <button id="trailer_12">Details of this video</button>
+    <h3 id="show11" class="abc_6">This is the SHOWREEL of my Work I show some work in this reel</h3>
+    </section><br><br>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sEdwvREn0iQ" id="big_video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-aos="zoom-in"></iframe>
+  <section id="disc_10">
+  <button id="trailer_10">Details of this video</button>
+  <h3 id="show10" class="abc_5">This is My complete video editing work where i use transition, and multiple effects for attract the viewer attention</h3>  
+  </section><br><br><br>
+
+  <!--2D Animation-->
+<section id="animation">
+  <span class="bigger_3">Animation</span>
+<h1>2D Animation Work</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DJJfJD-tH_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  data-aos="zoom-in"></iframe>
+  <section id="descA">
+      <button id="btnA_1">Details</button>
+      <h3 id="showA_1">This is my Animation project in which I create a haunted house story in Animate CC</h3>
+  </section>
+</section>
+<!--2D Animation-->
+
+</section>
+
+<section id="Web_designing">
+<h1>Website Designing</h1>
+<span class="bigger_4">Web</span>
+<section id="web_1">
+  <a href="https://jatin33333.github.io/urban/"target="_blank"><img src="images/urbans.png" alt="" data-aos="zoom-in"></a>
+</section>
+
+<section id="web_2">
+  <a href="https://jatin33333.github.io/Interio/" target="_blank"><img src="images/interio.png" alt="" data-aos="zoom-in"></a>
+</section>
+
+</section>
+<!--Video Editing-->
+
+<section id="contact_at_footer">
+<section id="contact">
+
+<section id="contact_us">
+<p>contact us</p>
+<h1>Let's Work Together</h1>
+<p><b>contact info</b></p>
+<p>K-1/28 Ext mohan garden<br>
+  New Delhi-110059<br><br>
+
+<p>Ph: +91 9953899159</p>
+<p>Email: jatinbaweja333@gmail.com</p>
+</section>
+<section id="form">
+
+<form action="https://formspree.io/f/mleyjojz"
+method="POST">
+
+<span>Your Name</span><br>
+<input type="text" placeholder="joe william" onfocus="focus_function(this)" onblur="blur_function(this)" autocomplete="off" required name="name"><br><br>
+
+<span>Your email Address</span><br>
+<input type="Email" placeholder="noida sector-21" onfocus="focus_function(this)" onblur="blur_function(this)" name="email" id="email"autocomplete="off" required><br><br>
+
+<span>Phone Number</span><br>
+<input type="text"placeholder="+91 8799XXXXXX" onfocus="focus_function(this)" onblur="blur_function(this)" autocomplete="off" required name="phone number"><br><br>
+
+<span>How we can Help You?</span><br>
+<textarea rows="5" placeholder="create a responsive website,motion graphic and 2d animation" onfocus="focus_function(this)" onblur="blur_function(this)" autocomplete="off" name="message" required min="5"></textarea><br><br>
+<button type="submit" onclick="sendmessage()" class="button">Send Message</button>
+
+
+
+</form>
+
+</section>
+
+</section>
+
+</section>
+
+<footer id="footer">
+
+  <section id="f1"><img src="images/logo.png" alt="" style="cursor:pointer;"class="hover-underline-animation" width="20%"></section>
+  <section id="f2"><a href="" class="hover-underline-animation">copyright &copy; 2023// Designed by Jatin Baweja</a></section>
+  <section id="f4"><a href="https://www.facebook.com/jatin.baweja.3954" class="hover-underline-animation"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+  <a href="https://www.behance.net/jatinbaweja2000" class="hover-underline-animation"><i class="fa-brands fa-behance" style="color: #ffffff;"></i></a>
+  <a href="https://web.whatsapp.com/" class="hover-underline-animation"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+  </section>
+  
+  </footer>
+
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script src="portfolio.js"></script>
+
+
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script>
+  $(document).ready(function(){
+   $('#menu').click(function(){
+    $('#sidebar').slideDown('slow');
+   });
+   $('#close').click(function(){
+    $('#sidebar').slideUp('slow');
+   })
+   $('#p_1').click(function(){
+    $('#display').slideDown('slow');
+    $('#p_1').css('display','none')
+    $('#p_2').css('display','block')
+   })
+   $('#p_2').click(function(){
+    $('#display').slideUp('slow');
+    $('#p_1').css('display','block')
+    $('#p_2').css('display','none')
+   })
+   $('#trailer_12').click(function(){
+    $('#show11').slideToggle()
+   })
+   $('#trailer_10').click(function(){
+    $('#show10').slideToggle()
+   })
+   $('#btnA_1').click(function(){
+    $('#showA_1').slideToggle()
+   })
+  });
+</script>
+<!--jquery-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
